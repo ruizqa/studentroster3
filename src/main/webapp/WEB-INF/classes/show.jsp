@@ -50,7 +50,7 @@
 				<tbody>
 					<tr>
 						<c:forEach items="${clase.students}" var="student">
-								<li><c:out value="${student.firstName} ${student.lastName}"/></li>
+								<td><c:out value="${student.firstName} ${student.lastName}"/></td>
 						</c:forEach>
 					</tr>
 				</tbody>
